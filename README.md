@@ -1,4 +1,45 @@
-meteor-yml
+yml
 ==========
 
-js-yml packed for meteor
+A YAML 1.2 parser and serializer for [Meteor][1]. Converts YAML files to JSON and JS objects to YAML.
+
+This package packs [js-yaml][3] 3.1.0 for Meteor.
+
+##Installation via [Meteorite][2]
+
+```
+mrt add yml
+```
+
+##Quick examples
+
+###Convert YAML file to JSON
+
+```js
+var fs = Npm.require('fs');
+
+try {
+  var data = YAML.safeLoad(fs.readFileSync('/path/to/file.yml', 'utf8'));
+  console.log(data);
+} catch (e) {
+  console.log(e);
+}
+```
+
+###Convert JS object to YAML
+
+```js
+var data = {
+  "some": "data"
+}
+
+var yml = YAML.safeDump(data);
+console.log(yml);
+```
+
+
+Full API documentation on the github page of [js-yaml][3].
+
+  [1]: https://www.meteor.com/
+  [2]: https://github.com/oortcloud/meteorite/
+  [3]: https://github.com/nodeca/js-yaml
