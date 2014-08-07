@@ -37,9 +37,11 @@ var yml = YAML.safeDump(data);
 console.log(yml);
 ```
 
-
 Full API documentation on the github page of [js-yaml][3].
+
+##License: [MIT][4]
 
   [1]: https://www.meteor.com/
   [2]: https://github.com/oortcloud/meteorite/
   [3]: https://github.com/nodeca/js-yaml
+  [4]: https://github.com/udondan/meteor-yml/blob/master/LICENSE
