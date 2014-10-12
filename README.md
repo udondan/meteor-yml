@@ -3,12 +3,12 @@ yml
 
 A YAML 1.2 parser and serializer for [Meteor][1]. Converts YAML files to JSON and JS objects to YAML.
 
-This package packs [js-yaml][3] 3.1.0 for Meteor. See the [online demo][4] for the capabilities of this packages, including anchors, references and hash merging.
+This package packs [js-yaml][2] 3.2.2 for Meteor. See the [online demo][3] for the capabilities of this packages, including anchors, references and hash merging.
 
-##Installation via [Meteorite][2]
+##Installation
 
 ```
-mrt add yml
+meteor add udondan:yml
 ```
 
 ##Quick examples
@@ -39,10 +39,9 @@ console.log(yml);
 
 Full API documentation on the github page of [js-yaml][3].
 
-##License: [MIT][5]
+##License: [MIT][4]
 
   [1]: https://www.meteor.com/
-  [2]: https://github.com/oortcloud/meteorite/
-  [3]: https://github.com/nodeca/js-yaml
-  [4]: http://nodeca.github.io/js-yaml/
-  [5]: https://github.com/udondan/meteor-yml/blob/master/LICENSE
+  [2]: https://github.com/nodeca/js-yaml
+  [3]: http://nodeca.github.io/js-yaml/
+  [4]: https://github.com/udondan/meteor-yml/blob/master/LICENSE
