@@ -1,9 +1,0 @@
-{
-  "name": "yml",
-  "description": "A YAML 1.2 parser and serializer. Converts YAML files to JSON and JS objects to YAML.",
-  "homepage": "https://github.com/udondan/meteor-yml",
-  "author": "Daniel Phatthanan <daniel@phatthanan.com> (http://phatthanan.com/)",
-  "version": "0.1.0",
-  "license": "MIT",
-  "git": "https://github.com/udondan/meteor-yml.git"
-}
