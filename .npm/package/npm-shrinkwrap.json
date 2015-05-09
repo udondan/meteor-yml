@@ -1,21 +1,21 @@
 {
   "dependencies": {
     "js-yaml": {
-      "version": "3.2.2",
+      "version": "3.3.0",
       "dependencies": {
         "argparse": {
-          "version": "0.1.15",
+          "version": "1.0.2",
           "dependencies": {
-            "underscore": {
-              "version": "1.4.4"
+            "lodash": {
+              "version": "3.8.0"
             },
-            "underscore.string": {
-              "version": "2.3.3"
+            "sprintf-js": {
+              "version": "1.0.2"
             }
           }
         },
         "esprima": {
-          "version": "1.0.4"
+          "version": "2.2.0"
         }
       }
     }
