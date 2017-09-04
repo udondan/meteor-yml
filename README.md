@@ -1,6 +1,8 @@
 yml
 ==========
 
+__NO LONGER MAINTAINED__
+
 A YAML 1.2 parser and serializer for [Meteor][1]. Converts YAML files to JSON and JS objects to YAML.
 
 This package packs [js-yaml][2] 3.2.2 for Meteor. See the [online demo][3] for the capabilities of this packages, including anchors, references and hash merging.
